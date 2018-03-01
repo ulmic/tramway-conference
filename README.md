@@ -1,5 +1,8 @@
 # Tramway::Conference
-Short description and motivation.
+
+*If you need translation of this Readme, please message us soxat73rus@gmail.com. We'll translate for you and post to this page*
+
+tramway-conference - это страшное шаблонище для проекта [tramway](https://github.com/ulmic/tramway)
 
 ## Usage
 How to use my plugin.
@@ -14,11 +17,9 @@ gem 'tramway-conference'
 And then execute:
 ```bash
 $ bundle
-```
-
-Or install it yourself as:
-```bash
-$ gem install tramway-conference
+$ rails g tramway:conference:install
+$ rails db:create db:migrate
+$ rails tramway:conference:prepare
 ```
 
 ## Contributing
