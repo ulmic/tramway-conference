@@ -1,3 +1,5 @@
+require 'font-awesome-rails'
+
 module Tramway
   module Conference
     class Engine < ::Rails::Engine
