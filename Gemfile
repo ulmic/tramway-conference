@@ -1,14 +1,37 @@
 source 'https://rubygems.org'
-
-# Declare your gem's dependencies in tramway-conference.gemspec.
-# Bundler will treat runtime dependencies like base dependencies, and
-# development dependencies will be added by default to the :development group.
 gemspec
 
-# Declare any dependencies that are still in development here instead of in
-# your gemspec. These might include edge Rails or gems from your path or
-# Git. Remember to move these dependencies to your gemspec before releasing
-# your gem to rubygems.org.
+gem 'pg', '0.21.0'
+gem 'tramway-user', github: 'ulmic/tramway-user', branch: :develop
+gem 'tramway-core', github: 'ulmic/tramway-core', branch: :develop
+gem 'tramway-admin', github: 'ulmic/tramway-admin', branch: :develop
+gem 'tramway-landing', github: 'ulmic/tramway-landing', branch: :develop
+gem 'haml-rails'
+gem 'sass-rails'
+gem 'bootstrap', '~> 4.0.0.beta2.1'
+gem 'audited'
+gem 'simple_form'
+gem 'font-awesome-rails'
+gem 'coffee-rails'
+gem 'jquery-rails'
+gem 'bcrypt'
+gem 'reform-rails'
+gem 'trap', '~> 2.1'
+gem 'copyright_mafa'
+gem 'enumerize'
+gem 'kaminari'
+gem 'bootstrap-kaminari-views', github: 'rafaelmotta/bootstrap-kaminari-views', branch: :master
+gem 'state_machine', github: 'seuros/state_machine'
+gem 'state_machine_buttons', '>= 0.4.1'
+gem 'disposable', github: 'apotonick/disposable'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'rmagick'
 
-# To use a debugger
-# gem 'byebug', group: [:development, :test]
+group :development do
+  gem 'pry'
+ # gem 'tramway-user', path: '../tramway-user'
+ # gem 'tramway-core', path: '../tramway-core'
+ # gem 'tramway-admin', path: '../tramway-admin'
+ # gem 'tramway-landing', path: ../tramway-landing'
+end

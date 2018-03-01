@@ -1,7 +1,8 @@
-require "tramway/conference/engine"
+require 'tramway/conference/engine'
+require 'tramway/conference/generates/install_generator'
+require 'font-awesome-rails'
 
 module Tramway
   module Conference
-    # Your code goes here...
   end
 end

@@ -8,15 +8,13 @@ Gem::Specification.new do |s|
   s.name        = "tramway-conference"
   s.version     = Tramway::Conference::VERSION
   s.authors     = ["Dmitry Korotin"]
-  s.email       = ["dmitry.korotin@simbirsoft.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Tramway::Conference."
-  s.description = "TODO: Description of Tramway::Conference."
+  s.email       = ["soxat73rus@gmail.com"]
+  s.homepage    = "https://github.com/soxat/tramway-conference"
+  s.summary     = "Engine for Conference web sites"
+  s.description = "Engine for Conference web sites"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.1.4"
-
-  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "pg"
 end

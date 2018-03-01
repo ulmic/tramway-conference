@@ -1,0 +1,13 @@
+ru:
+  activerecord:
+    models:
+      tramway/conference/unity: Единство
+    attributes:
+      tramway/conference/unity:
+        title: Название
+        tagline: Лозунг
+        logo: Логотип
+        address: Адрес
+        phone: Телефон
+    tramway/conference/unity:
+      genitive: спортивную школу
